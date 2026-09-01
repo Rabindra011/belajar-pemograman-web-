@@ -1,7 +1,1 @@
-Nama = Mohammad Rabindra Radjawali
-NIM = 255314160
-Prodi = Informatika
-Fakultas = teknik
-Umur = 20
-
-Cita Cita menjadi Bos Muda
+Selesai
