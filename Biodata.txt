@@ -1,0 +1,5 @@
+Nama = Mohammad Rabindra Radjawali
+NIM = 255314160
+Prodi = Informatika
+Fakultas = teknik
+Umur = 20
