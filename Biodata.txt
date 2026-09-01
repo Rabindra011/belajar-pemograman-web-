@@ -3,3 +3,5 @@ NIM = 255314160
 Prodi = Informatika
 Fakultas = teknik
 Umur = 20
+
+ANJINGG TEMPEKK
