@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri - Mohammad Rabindra Radjawali</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #4f46e5;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            color: #1e293b;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #64748b;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .info-list {
+            text-align: left;
+            background-color: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            list-style: none;
+        }
+
+        .info-list li {
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+
+        .info-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-list strong {
+            color: #4f46e5;
+            display: inline-block;
+            min-width: 140px;
+        }
+
+        .badge-container {
+            margin-top: 8px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background-color: #e0e7ff;
+            color: #3730a3;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="Profile.jpeg" alt="Foto Profil Mohammad Rabindra Radjawali" class="profile-img">
+        
+        <h1>Mohammad Rabindra Radjawali</h1>
+        <p class="subtitle">Profil Diri</p>
+
+        <ul class="info-list">
+            <li><strong>TTL:</strong> Magelang, 8 Februari 2005</li>
+            <li><strong>Alamat:</strong> Jambon Legok No 8A Cacaban, Kota Magelang</li>
+            <li>
+                <strong>Hobi:</strong>
+                <div class="badge-container">
+                    <span class="badge">🏀 Bermain Basket</span>
+                    <span class="badge">🎸 Bermain Musik</span>
+                </div>
+            </li>
+            <li style="margin-top: 12px;"><strong>Cita-cita:</strong> Menjadi Bos Besar 🚀</li>
+        </ul>
+    </div>
+
+</body>
+</html>
